@@ -111,7 +111,13 @@
     transform: translateY(-100px);
     margin: 0 25px 0 25px;  
     color: #fff;
+    transition: all 0.5s ease-in-out;
 }
+#section2 .mini-containers .containers:hover{
+    height: 370px;
+    width: 330px;
+}
+
 
 .containers>h2{
     font-size: 40px;
@@ -316,6 +322,11 @@ margin-left: 20px;
     border-radius: 100px;
     bottom: 320px;
     left: 60px;
+    transition: all 0.7s ease-in;
+}
+.cards>img:hover{
+    transform: rotate(360deg);
+    cursor: pointer;
 }
 .cards>p{
     font-size: 23px;
