@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background-postion-set{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    outline: none;
+}
+.h2-heading{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.p-discription{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    outline: none;
+    border: none;
+    color: #fff;
+    height: 45px;
+    width: 25%;
+    /* padding: 20px 25px; */
+    background: rgb(255,134,3);
+    background: linear-gradient(101deg, rgba(255,134,3,1) 35%, rgba(254,49,122,1) 100%);
+}
+
+
+/* navbar design */
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 50px;
+    box-sizing: border-box;
+}
+
+.navbar h2{
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: #376bdb
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.navbar ul li{
+    margin: 0px 30px 0 30px;
+    font-size: 18px;
+    font-weight: 600;
+    padding:29px 10px;
+    transition: 0.3s all ease-in-out;
+    
+}
+.navbar ul li:hover{
+    background: linear-gradient(180deg, rgba(168,92,250,1) 35%, rgba(29,94,212,1) 100%);
+    cursor: pointer;
+    color: #fff;
+}
+
+/* heading design */
+#header{
+    background-image: url("./swimming-webiste/heading-image.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#section2{
+    height: 160vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+
+}
+
+#section2 .mini-containers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+     
+    /* margin-block: 130px; */
+}
+
+#section2 .mini-containers .containers{
+    height: 350px;
+    width: 300px;
+    padding-left:20px ;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: start;
+    align-content: start;
+    background-color:#376bdb;
+    transform: translateY(-100px);
+    margin: 0 25px 0 25px;  
+    color: #fff;
+}
+
+.containers>h2{
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.first-container{
+    background-image: url("./swimming-webiste/Rectangle\ \(3\).png");
+    /* background: linear-gradient(176deg, rgba(255,171,2,1) 35%, rgb(243, 169, 9) 100%); */
+}
+.second-container{
+    background-image: url("./swimming-webiste/Rectangle\ \(4\).png");
+    /* background: linear-gradient(180deg, rgba(168,92,250,1) 35%, rgba(29,94,212,1) 100%); */
+}
+.third-container{
+    background-image: url("./swimming-webiste/Rectangle\ \(5\).png");
+    /* background: linear-gradient(180deg, rgba(231,48,79,0.8911939775910365) 35%, rgba(223,20,131,0.6867121848739496) 100%); */
+}
+.fourth-container{
+    background-image: url("./swimming-webiste/Rectangle\ \(6\).png");
+    /* background: rgb(253,21,231); */
+background: linear-gradient(176deg, rgba(253,21,231,1) 35%, rgba(187,30,225,1) 100%);
+}
+.big-container{
+    display: flex;
+    justify-content: space-evenly;  
+     
+}
+.second-big-container{
+    margin-top: 30px; 
+    padding-bottom: 35px;
+}
+.first-child{
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    padding-left: 35px;
+    
+}
+
+
+.second-child{
+    background-image: url("./swimming-webiste/second-child-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.third-child{
+    background-image: url("./swimming-webiste/third-child-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fourth-child{
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    padding-left: 35px;
+
+}
+
+.btn{
+    padding: 10px 25px;
+}
+.big-container .child-containers{
+    width: 43%;
+    height: 400px;
+    display: flex;
+    transform: translateY(-50px);
+    
+}
+
+/* third section */
+.section3{
+    height: 100vh;
+    background-image: url("./swimming-webiste/secion3-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 65px;
+
+}
+
+.section3-child{
+    height: 100%;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(231,48,79);
+    background: linear-gradient(180deg, rgba(231,48,79,0.8911939775910365) 35%, rgba(223,20,131,0.6867121848739496) 100%);
+    text-align: start;
+    align-items: start;
+    padding: 0 50px 0 33px;
+    color: #fff;
+    word-wrap: break-word;
+    
+    
+}
+.section3-child>h2{
+    font-size: 40px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.section3-child>p{
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+.btn2{
+outline: none;
+border: none;
+padding: 20px 40px;
+font-weight: bold   ;
+}
+
+/* section 4 */
+.section4{
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.section4 .last-containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section4 .last-inner-child{
+    width: 650px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    /* align-items:; */
+    margin: 0 36px;
+}
+.section4 .first-inner-child{
+   background-image: url("./swimming-webiste/Rectangle\ \(8\).png");
+   padding-left: 60px;
+   color: #fff;
+   
+}
+.section4 .first-inner-child>h2{
+    font-size: 45px;
+    margin-bottom: 30px;
+    
+}
+.section4 .first-inner-child .list{
+margin-left: 20px;
+}
+.section4 .first-inner-child .list li{
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.section4 .second-inner-child{
+    background-image: url("./swimming-webiste/last-inner-child-image.png");
+
+}
+
+/* cards container design */
+
+.cards-container{
+    margin-top: 90px;
+    width: 100%;
+    height: 580px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.cards{
+    position: relative;
+    width: 20%;
+    height: 400px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align:start;
+    align-items: start;
+    padding: 0 30px;
+    
+    
+
+}
+.cards>img{
+    position: absolute;
+    border-radius: 100px;
+    bottom: 320px;
+    left: 60px;
+}
+.cards>p{
+    font-size: 23px;
+    line-height: 30px;
+    margin-top: 100px;
+    
+}
+.cards>h2{
+    font-size: 35px;
+    color: #fe4309;
+
+}
+
+/* loaction and contact us containers */
+.contact-us-container{
+    color: #fff;
+    background: linear-gradient(180deg,#0097e0 35%, #017dc7 100%);
+    padding-left: 60px;
+}
+.contact-us-container>h2{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.contact-us-container>p{
+    font-size: 20px;
+    word-spacing: 2px;
+}
+.location-conatainer{
+    background-image: url("./swimming-webiste/Map.png");
+}
+
+
+/* footer design */
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color:#f3f3f3;
+}
+
+footer>p{
+    font-size: 24px;
+    word-spacing: 2px;
+}
